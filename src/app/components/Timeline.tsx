@@ -13,7 +13,7 @@ export default function Timeline() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5"
+                className={`w-5 h-5 ${item.flag ? "text-primary" : ""}`}
               >
                 <path
                   fillRule="evenodd"
@@ -22,7 +22,9 @@ export default function Timeline() {
                 />
               </svg>
             </div>
+            {index !== 0 && <hr className="bg-primary" />}
             <div className="timeline-end timeline-box">{item.description}</div>
+            {index !== timelineData.length - 1 && <hr className="bg-primary" />}
           </li>
         ))}
       </ul>
