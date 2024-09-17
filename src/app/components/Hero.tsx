@@ -21,13 +21,15 @@ export default function Hero() {
             </h1>
             <div className="flex-grow"></div>
           </div>
-          <p className="py-1 text-">1999年生まれ、神奈川県在住</p>
-          <p className="py-1 text-">
-            WEBバックエンドエンジニア中心にフロント、インフラも
-          </p>
-          <p className="py-1 text-">
-            趣味は音楽、読書、お茶、お酒、ゲームなど......
-          </p>
+          <div className="my-4 space-y-2">
+            <p className="text-">1999年生まれ、神奈川県在住</p>
+            <p className="text-">
+              WEBバックエンドエンジニア中心にフロント、インフラも
+            </p>
+            <p className="text-">
+              趣味は音楽、読書、お茶、お酒、ゲームなど......
+            </p>
+          </div>
           <p className="text-lg">
             お問い合わせ:{" "}
             <a
