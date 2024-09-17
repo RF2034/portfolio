@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="my-4 space-y-2">
             <p className="text-">1999年生まれ、神奈川県在住</p>
             <p className="text-">
-              WEBバックエンドエンジニア中心にフロント、インフラも
+              主にバックエンドエンジニア。フロント、インフラも
             </p>
             <p className="text-">趣味は音楽、読書、お茶、お酒、ゲームなど</p>
           </div>
