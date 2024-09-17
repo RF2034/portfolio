@@ -11,14 +11,14 @@ export default function Projects() {
               <h3 className="card-title">{project.name}</h3>
               <p>{project.description}</p>
               <div className="card-actions justify-end">
-                <a
+                {/* <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   詳細を見る
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

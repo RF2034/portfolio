@@ -14,7 +14,6 @@ const skillsData: Skill[] = [
   { name: "React" },
   { name: "Next.js" },
   { name: "TailwindCSS" },
-  { name: "Git" },
 ];
 
 export default skillsData;
