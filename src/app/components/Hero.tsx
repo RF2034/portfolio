@@ -21,9 +21,14 @@ export default function Hero() {
             </h1>
             <div className="flex-grow"></div>
           </div>
+          <p className="py-6 text-">1999年生まれ、神奈川県在住</p>
           <p className="py-6 text-">
-            エンジニアとしての自己PR文をここに記述します。私の強みや目標、興味のある分野などについて簡潔に説明します。
+            WEBバックエンドエンジニア中心にフロント、インフラも
           </p>
+          <p className="py-6 text-">
+            趣味は音楽、読書、お茶、お酒、ゲームなど......
+          </p>
+
           <p className="text-lg">
             お問い合わせ:{" "}
             <a
