@@ -17,7 +17,7 @@ export default function Hero() {
         <div>
           <div className="inline-flex items-center rounded-tl-full rounded-tr-full rounded-bl-full bg-secondary min-w-[25vw]">
             <h1 className="text-5xl font-bold text-primary-content p-4">
-              私の名前
+              Ryosuke
             </h1>
             <div className="flex-grow"></div>
           </div>
