@@ -26,9 +26,7 @@ export default function Hero() {
             <p className="text-">
               WEBバックエンドエンジニア中心にフロント、インフラも
             </p>
-            <p className="text-">
-              趣味は音楽、読書、お茶、お酒、ゲームなど......
-            </p>
+            <p className="text-">趣味は音楽、読書、お茶、お酒、ゲームなど</p>
           </div>
           <p className="text-lg">
             お問い合わせ:{" "}
