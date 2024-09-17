@@ -7,7 +7,8 @@ export interface Project {
 const projectsData: Project[] = [
   {
     name: "ポートフォリオ",
-    description: "Next.js、DaisyUIを用いて作成しています。",
+    description:
+      "Next.js、DaisyUIを用いて作成しています。ダークモードへの対応なども行っています。",
     link: "https://project1.example.com",
   },
 ];
